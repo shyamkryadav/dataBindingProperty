@@ -1,0 +1,70 @@
+<!-- event Binding  -->
+<br>
+
+<button (click)="clickMehtod()">Increment</button>
+<br>
+<h3>{{count}}</h3>
+<br>
+
+<h1> pass data to event </h1>
+<button (click)="changeValue('shyam sundar yadav')">changeValue</button>
+<br>
+<h3>{{values}}</h3>
+<br>
+
+<br>
+<br>
+<input type="text" (input)="impChange($event)" placeholder="Enter Your Name" >
+
+<h2>{{eventValue}}</h2>
+
+<br><br>
+<select (change)="onSeletChnage($event)" >
+    <option value="English">English</option>
+    <option value="Nepali">Nepali</option>
+    <option value="Computer">Computer</option>
+    <option value="Science">Science</option>
+</select>
+
+
+  <h2>{{evetSelectvalue}}</h2>
+
+
+  <br>
+  <br>
+
+  <div style="height: 100px; overflow-y: scroll;" (scroll)="onScroll($event)">
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+</div>

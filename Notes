@@ -25,4 +25,10 @@ property Binding
 
 Prpoerty Bindign use to bind the dynamic dat a 
 
+event data binding 
 
+
+
+$event
+- it is resurved keyword in angualr 
+- it helps to get all information of tag  
