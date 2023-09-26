@@ -1,0 +1,28 @@
+Data Binding  
+    1.replace static data to dynamic data 
+    2.data Bindign id is equal to communcation  
+    3.commpont to View
+
+2.Types of dataBinding 
+    one way dataBinding & two way dataBinding 
+
+    one way dataBinding 
+    {{Interpolation}} 
+    [Prpoerty Bindign]
+
+    view to commpont 
+    (event Bindign)
+
+    tow way Bindign
+    // commpont to view or view to commpont data flow
+
+
+// what is interpolation in Angular 
+
+
+
+property Binding 
+
+Prpoerty Bindign use to bind the dynamic dat a 
+
+
