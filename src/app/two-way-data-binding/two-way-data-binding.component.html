@@ -1,0 +1,42 @@
+<input type="text" [(ngModel)]="email"  placeholder="Enter email" >
+
+{{email}}
+
+
+<br><br>
+CheckBox and Radio Button 
+<br>
+<br>
+CheckBox
+<input type="checkbox" [(ngModel)]="isChecked" name="" id="">
+{{isChecked}}
+<br>
+<br>
+CheckBox
+<input type="radio" [(ngModel)]="gender" value="Male" name="" id="">Male
+<input type="radio" [(ngModel)]="gender"  value="Female "  name="" id=""> Female
+<br>
+<br>
+{{gender}}
+
+
+slider 
+
+<input type="range" [(ngModel)]="sliderValue">
+<br><br>
+{{sliderValue}}
+
+<br><br>
+
+
+<br><br>
+<select [(ngModel)]="selcetOption" >
+    <option value="English">English</option>
+    <option value="Nepali">Nepali</option>
+    <option value="Computer">Computer</option>
+    <option value="Science">Science</option>
+</select>
+
+<br>
+<br>
+{{selcetOption}}
